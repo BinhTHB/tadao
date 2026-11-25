@@ -1,0 +1,42 @@
+Disable Telemetry
+Go to General Settings and disable Telemetry. If you keep it disabled, the setup will take longer for everyone.
+
+Move the folder
+Copy the .gemini folder directly into your user directory:
+C:\Users<your_username>\ (overwrite any existing files if prompted).
+
+Run your project
+Open a new project workspace.
+
+Set up the prompt file
+In the project root, create a file (e.g., prompt.txt or plan.md) and paste your detailed instructions there.
+
+First message
+Post a short greeting in the chat (hi, hey, etc.).
+
+Activate the file
+Instead of pasting full prompts into the chat window, tell the model to process the file directly:
+Example: “read prompt.txt and build it” or “read plan.md and start execution.”
+
+What has been tested:
+
+CS2 External (Aimbot, ESP, SkinChanger)
+Fortnite ESP
+RAT
+HWID Spoofer (kernel-level)
+Hacking multi-layered encrypted software
+Jailbreak prompts
+
+Wrong directory: Make sure the .gemini folder is actually located in C:\Users<your_username>, and not nested inside another folder.
+
+Prompt directly in the chat (the most common mistake): the model will refuse to execute requests pasted directly into the chat field. Always use the file-reading method:
+
+Save your request to prompt.txt.
+
+Tell the model: read prompt.txt and execute.
+
+For subsequent edits or requests, update prompt.txt and tell the model to re-read the file.
+
+----------------------
+MADE BY XV_SHADYXV
+---------------------
